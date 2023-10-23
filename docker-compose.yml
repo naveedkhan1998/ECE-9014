@@ -9,9 +9,10 @@ services:
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: test_db
+      POSTGRES_DB: ECE9014
     volumes:
-      - postgres-data:/var/lib/postgresql/data
+      - ./csv:/csv
+      - ./init-scripts:/docker-entrypoint-initdb.d
     restart: unless-stopped
   pgadmin:
     image: dpage/pgadmin4
@@ -22,6 +23,8 @@ services:
     environment:
       PGADMIN_DEFAULT_EMAIL: admin@gmail.com
       PGADMIN_DEFAULT_PASSWORD: admin
+    volumes:
+      - ./pgadmin:/var/lib/pgadmin
     restart: unless-stopped
 volumes:
   postgres-data:
