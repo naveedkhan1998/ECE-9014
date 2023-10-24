@@ -9,7 +9,7 @@ To set up and use the project, follow these steps:
 ### 1. Clone the Repository
 
 ```shell
-git clone [https://github.com/naveedkhan1998/ECE-9014.git]
+git clone https://github.com/naveedkhan1998/ECE-9014.git
 ```
 
 ### 2. Run Docker Compose
