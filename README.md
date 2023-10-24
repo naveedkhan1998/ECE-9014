@@ -2,6 +2,11 @@
 
 By Mohammad Naveed Khan and Ahmed (Jimmy) Abdalla
 
+## Entity-Relationship Diagram (ERD)
+
+![ERD](./ECE9014.png)
+
+
 ## Getting Started
 
 To set up and use the project, follow these steps:
