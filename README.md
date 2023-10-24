@@ -1,4 +1,5 @@
 # ECE-9014 Project Report 1 - Implementation
+
 By Mohammad Naveed Khan and Ahmed (Jimmy) Abdalla
 
 ## Getting Started
@@ -8,9 +9,8 @@ To set up and use the project, follow these steps:
 ### 1. Clone the Repository
 
 ```shell
-git clone [repository_url]
+git clone [https://github.com/naveedkhan1998/ECE-9014.git]
 ```
-Replace `[repository_url]` with the actual URL of your Git repository.
 
 ### 2. Run Docker Compose
 
@@ -23,6 +23,7 @@ docker-compose up
 ### 3. Access PgAdmin
 
 Open a web browser and navigate to the following URL:
+
 ```
 http://localhost:5555
 ```
