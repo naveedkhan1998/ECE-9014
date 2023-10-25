@@ -33,13 +33,16 @@ Open a web browser and navigate to the following URL:
 http://localhost:5555
 ```
 
+Or if you have PgAdmin installed on your machine, you can use it instead. 
+
 ### 4. Connect to the PgAdmin Server
 
 - In PgAdmin, click on "Add New Server" or a similar option.
 - Configure the connection settings as follows:
-  - **Host:** Enter the host information.
-  - **Username:** Use "pgadmin".
-  - **Password:** Enter "pgadmin" as the password.
+  - **Host:** Enter "localhost"
+  - **Username:** Use "postgres".
+  - **Password:** Enter "postgres" as the password.
+  - **Port:** 5432
 - Click "Save" or "Connect" to establish a connection to the server.
 
-You are now ready to work on your project using PgAdmin.
+You are now ready to work on the project using PgAdmin.
