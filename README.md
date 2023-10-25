@@ -40,7 +40,7 @@ Or if you have PgAdmin installed on your machine, you can use it instead.
 - In PgAdmin, click on "Add New Server" or a similar option.
 - Configure the connection settings as follows:
   - **Host:** Enter "localhost"
-  - **Username:** Use "postgres".
+  - **Username:** Use "postgres" or "postgres@postgres.com.
   - **Password:** Enter "postgres" as the password.
   - **Port:** 5432
 - Click "Save" or "Connect" to establish a connection to the server.
