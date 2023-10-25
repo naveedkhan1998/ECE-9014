@@ -22,6 +22,10 @@ git clone https://github.com/naveedkhan1998/ECE-9014.git
 
 Start the Docker containers using the following command:
 
+Make sure that all docker images are stopped prior to running this image. 
+
+To view running docker images: run docker ps & docker stop [container name] 
+
 ```shell
 docker-compose up
 ```
