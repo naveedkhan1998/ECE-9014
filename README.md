@@ -45,4 +45,10 @@ Or if you have PgAdmin installed on your machine, you can use it instead.
   - **Port:** 5432
 - Click "Save" or "Connect" to establish a connection to the server.
 
+### 5. Adding the Server
+- Right click and click on the option to create a server
+- Add the hostname as "postgres" or "localhost"
+- Port as 5432
+- Username, password & Maintenance Database as postgres
+
 You are now ready to work on the project using PgAdmin.
