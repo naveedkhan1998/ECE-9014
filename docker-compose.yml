@@ -21,7 +21,7 @@ services:
     ports:
       - "5555:80"
     environment:
-      PGADMIN_DEFAULT_EMAIL: postgres
+      PGADMIN_DEFAULT_EMAIL: postgres@postgres.com
       PGADMIN_DEFAULT_PASSWORD: postgres
     restart: unless-stopped
 volumes:
