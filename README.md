@@ -1,3 +1,5 @@
+It looks like your project documentation could use some formatting improvements. Here's a cleaner version:
+
 # ECE-9014 Project Report 1 - Implementation
 
 By Mohammad Naveed Khan and Ahmed (Jimmy) Abdalla
@@ -5,7 +7,6 @@ By Mohammad Naveed Khan and Ahmed (Jimmy) Abdalla
 ## Entity-Relationship Diagram (ERD)
 
 ![ERD](./ECE9014.png)
-
 
 ## Getting Started
 
@@ -33,22 +34,24 @@ Open a web browser and navigate to the following URL:
 http://localhost:5555
 ```
 
-Or if you have PgAdmin installed on your machine, you can use it instead. 
+Alternatively, if you have PgAdmin installed on your machine, you can use it instead.
 
 ### 4. Connect to the PgAdmin Server
 
-- In PgAdmin, click on "Add New Server" or a similar option.
-- Configure the connection settings as follows:
-  - **Host:** Enter "localhost"
-  - **Username:** Use "postgres" or "postgres@postgres.com.
-  - **Password:** Enter "postgres" as the password.
-  - **Port:** 5432
-- Click "Save" or "Connect" to establish a connection to the server.
+Login using the following credentials:
+
+- **Email:** Use "postgres@postgres.com".
+- **Password:** Enter "postgres" as the password.
+
+Click "Login" to establish a connection to the server.
 
 ### 5. Adding the Server
-- Right click and click on the option to create a server
-- Add the hostname as "postgres" or "localhost"
-- Port as 5432
-- Username, password & Maintenance Database as postgres
+
+In PgAdmin, click on "Add New Server" or a similar option. Configure the connection settings as follows:
+
+- **Host:** Enter "localhost" or "postgres"
+- **Email:** Use "postgres@postgres.com".
+- **Password:** Enter "postgres" as the password.
+- **Port:** 5432
 
 You are now ready to work on the project using PgAdmin.
